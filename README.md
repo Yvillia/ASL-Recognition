@@ -36,6 +36,8 @@ Unless otherwise explicitly stated the work used is entirely my own code.
 
 ### Current Best Testing Results:
     Test Accuracy: 93.60321384425217%
+    Note: The model is too bulky to be uploaded so to access the current model please contact me 
+    or train your own model using the code provided on this GitHub.
 
 <br />
 

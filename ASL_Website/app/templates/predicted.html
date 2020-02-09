@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }} - ASL Recognition</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/main.css') }}">
+    </head>
+    <body>
+        <div class="titleContent">
+            <h1 class="title">Image Was Classified To Be: {{ prediction }}</h1>
+        </div>
+        <div class="pageContent">
+            <p class="about">
+                The Model's Accuracy is roughly 93.6%,
+                so there is a fairly substantial probability 
+                that the Model is Incorrect.
+            </p>
+        </div>
+        <div class="submitContent">
+            <form action="/" method="GET">
+                <button type="submit" value="return" name="returnBtn" id="returnBtn">Click Here to Start Again</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/main.css') }}">
+        <title> {{ title }} - ASL Recognition</title>
+    </head>
+    <body>
+        <div class="titleContent">
+            <h1 class="title">Welcome to Our ASL Letter and Digit Recognition Website</h1>
+        </div>
+        <div class="pageContent">
+            <p class="about">
+                This is a dedicated webpage for an American Sign Language (ASL) Recognition Machine. To Begin, 
+                please press the button below and take a picture of your hand forming a letter or digit
+                handsign in the ASL alphabet. Our model was based on a paper from <a href="http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf" 
+                target="_blank" rel="noopener noreferrer">Stanford University</a>
+                that used transfer learning with a GoogLeNet architecture and was trained/tested on the following
+                datasets:
+            </p>
+        </div>
+        <div class="pageContent">
+            <ul>
+                <li target="_blank"><a href="https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html" 
+                    target="_blank" rel="noopener noreferrer">Massey University Gesture Dataset 2012</a></li>
+                <li><a href="https://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset" 
+                    target="_blank" rel="noopener noreferrer">University of Exeter ASL Finger Spelling Dataset</a></li>
+            </ul>
+        </div>
+        <div class="submitContent">
+            <form action="/pickup" method="post">
+                <button type="submit" value="camera" name="photoBtn" id="photoBtn">Click Here to Open Camera</button>
+            </form>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>

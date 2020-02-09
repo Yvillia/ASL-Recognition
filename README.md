@@ -7,6 +7,7 @@ Original Project Link: https://gitlab.engr.illinois.edu/noahrr2/asl-recognition
 
 Unless otherwise explicitly stated the work used is entirely my own code.
 
+<br />
 
 # How to Setup
 ## First Go to the Directory that Will Hold Your Jupyter-Notebook Projects. For simplicity I will refer to this directory as the `JN_Dir`
@@ -31,10 +32,13 @@ Unless otherwise explicitly stated the work used is entirely my own code.
 
 8. [ ] All Set to Train
 
+<br />
 
 ### Current Best Testing Results:
     Test Accuracy: 93.60321384425217%
-    
+
+<br />
+
 ## How to Setup Website
 
 1. [ ] Download ASL_Website from this Github and Place it in a Directory of Your Choosing
@@ -49,3 +53,19 @@ Unless otherwise explicitly stated the work used is entirely my own code.
 5. [ ] To Send pictures to the model from the website open jupyter-notebook from the same directory and run `Camera_Script.py.ipynb`
         (You may have to Download opencv prereqs). Press space to take a picture.
 
+<br />
+
+# Credits
+- Camera Script 
+   - Mathew Farley (GitHub: https://github.com/mathewf2)
+
+- Datasets 
+   - Massey University - https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html
+   - ASL Finger Spelling Dataset - https://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset
+
+- Tutorials 
+   - Flask - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+- Architecture Papers
+   - Stanford University Transfer Learning - http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf
+   - State University of New York at Buffalo - https://arxiv.org/pdf/1710.06836.pdf
